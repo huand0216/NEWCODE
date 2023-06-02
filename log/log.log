@@ -1,0 +1,226 @@
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 37, in getSheet
+    with xlrd.open_workbook(filename=getFilePath(dirName=self.dirName,fileName=self.fileName)) as book:
+  File "/Users/huandong/PycharmProjects/AutoTest/lib/python3.8/site-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/Users/huandong/PycharmProjects/AutoTest/lib/python3.8/site-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huandong/PycharmProjects/AutoTest/datas/daa.xls'
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 55, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 41, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 37, in getSheet
+    with xlrd.open_workbook(filename=getFilePath(dirName=self.dirName,fileName=self.fileName)) as book:
+  File "/Users/huandong/PycharmProjects/AutoTest/lib/python3.8/site-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/Users/huandong/PycharmProjects/AutoTest/lib/python3.8/site-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huandong/PycharmProjects/AutoTest/datas/daa.xls'
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 55, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 41, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 466, in sheet_by_name
+    sheetx = self._sheet_names.index(sheet_name)
+ValueError: '档案' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    sheet = book.sheet_by_name(self.sheetName)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 468, in sheet_by_name
+    raise XLRDError('No sheet named <%r>' % sheet_name)
+xlrd.biffh.XLRDError: No sheet named <'档案'>
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 55, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 41, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 466, in sheet_by_name
+    sheetx = self._sheet_names.index(sheet_name)
+ValueError: '档案' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    sheet = book.sheet_by_name(self.sheetName)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 468, in sheet_by_name
+    raise XLRDError('No sheet named <%r>' % sheet_name)
+xlrd.biffh.XLRDError: No sheet named <'档案'>
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 55, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 41, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 466, in sheet_by_name
+    sheetx = self._sheet_names.index(sheet_name)
+ValueError: '档案' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    sheet = book.sheet_by_name(self.sheetName)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 468, in sheet_by_name
+    raise XLRDError('No sheet named <%r>' % sheet_name)
+xlrd.biffh.XLRDError: No sheet named <'档案'>
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 55, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 41, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 466, in sheet_by_name
+    sheetx = self._sheet_names.index(sheet_name)
+ValueError: '档案' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    sheet = book.sheet_by_name(self.sheetName)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 468, in sheet_by_name
+    raise XLRDError('No sheet named <%r>' % sheet_name)
+xlrd.biffh.XLRDError: No sheet named <'档案'>
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 55, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 41, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    with xlrd.open_workbook(filename=getFilePath(dirName=self.dirName,fileName=self.fileName)) as book:
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huandong/PycharmProjects/AutoTest/datas/dada.xls'
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 56, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 42, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    with xlrd.open_workbook(filename=getFilePath(dirName=self.dirName,fileName=self.fileName)) as book:
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huandong/PycharmProjects/AutoTest/datas/dada.xls'
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 56, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 42, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    with xlrd.open_workbook(filename=getFilePath(dirName=self.dirName,fileName=self.fileName)) as book:
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huandong/PycharmProjects/AutoTest/datas/dada.xls'
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 56, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 42, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    with xlrd.open_workbook(filename=getFilePath(dirName=self.dirName,fileName=self.fileName)) as book:
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huandong/PycharmProjects/AutoTest/datas/dada.xls'
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 56, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 42, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    with xlrd.open_workbook(filename=getFilePath(dirName=self.dirName,fileName=self.fileName)) as book:
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huandong/PycharmProjects/AutoTest/datas/dadas.xls'
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 56, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 42, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 38, in getSheet
+    with xlrd.open_workbook(filename=getFilePath(dirName=self.dirName,fileName=self.fileName)) as book:
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 166, in open_workbook
+    file_format = inspect_format(filename, file_contents)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/__init__.py", line 60, in inspect_format
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/huandong/PycharmProjects/AutoTest/datas/dadas.xls'
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 56, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 42, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 466, in sheet_by_name
+    sheetx = self._sheet_names.index(sheet_name)
+ValueError: '老人档案' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 39, in getSheet
+    sheet = book.sheet_by_name(self.sheetName)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 468, in sheet_by_name
+    raise XLRDError('No sheet named <%r>' % sheet_name)
+xlrd.biffh.XLRDError: No sheet named <'老人档案'>
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 56, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 42, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 466, in sheet_by_name
+    sheetx = self._sheet_names.index(sheet_name)
+ValueError: '老人档案' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 39, in getSheet
+    sheet = book.sheet_by_name(self.sheetName)
+  File "/Users/huandong/PycharmProjects/yyy_supervisory_control  /lib/python3.9/site-packages/xlrd/book.py", line 468, in sheet_by_name
+    raise XLRDError('No sheet named <%r>' % sheet_name)
+xlrd.biffh.XLRDError: No sheet named <'老人档案'>
+Traceback (most recent call last):
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 56, in getExcelData
+    key = self.getSheet.row_values(rowx=0)
+  File "/Users/huandong/PycharmProjects/AutoTest/utils/operationExcel.py", line 42, in getSheet
+    return sheet
+UnboundLocalError: local variable 'sheet' referenced before assignment

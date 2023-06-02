@@ -1,0 +1,12 @@
+case001:
+  cardCategory: 2
+  idCard: '37299731'
+  phone: '13333333333'
+  realName: 自动化新增谢霞
+  source: 1
+  verifyFacePhoto: ''
+case002:
+  current: 2
+  deathStatus: 2
+  nursingId: ''
+  size: 10
