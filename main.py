@@ -9,6 +9,9 @@ from common.public_path import getFilePath
 import allure
 
 if __name__ == '__main__':
+	'''
+	主函数：运行测试用例
+	'''
 
     pytest.main(["-v", "-s","./tests/","--alluredir=./report/result","--clean-alluredir"])
 
