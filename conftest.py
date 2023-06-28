@@ -12,6 +12,7 @@ def getToken():
         params = {"tenantKey":"fd12847b38dd4083b3fb334b9b876989","grant_type":"tenant_key","tenantId":"003864","scope":"all"},
         headers = {"Authorization":"Basic bWVjaGM6bWVjaGNfc2VjcmV0"}
     )
+    # token
     token_type = str.capitalize(res.json()["token_type"])
     access_token = res.json()["access_token"]
     token = "{0} {1}".format(token_type,access_token)
